@@ -1,0 +1,161 @@
+Q1 What are the disadvantages of CSS?
+1. Cross-Browser Issues and Browser Compatibility
+2. Learning Curve
+3. Security Concerns
+4. Complex Layouts and Limited Layout Control
+5. File Size and Performance Impact
+6. Over-Specificity and Overriding Styles
+7. Maintenance Challenges
+
+Q2 What are the benefits of using CSS?
+1. Consistency and Global Styling
+2. Easier to Maintain and Efficient Updates
+3. Time-Saving and Faster Loading Times
+4. Enhanced Design Options and Responsive Design
+5. SEO-Friendly
+6. Accessibility and Print-Friendly Pages
+7. Platform Independence and Device Compatibility
+8. CSS Minification and Page Load Efficiency
+9. Cascade, Inheritance, and Class/ID Usage
+10. CSS Sprites, Animations, and Effects
+
+Q3 What is the difference between CSS2 and CSS3?
+
+css
+1 CSS is capable of positioning texts and objects. 	
+2 CSS is capable of positioning texts and objects. 	
+3 CSS cannot be split into modules.	
+4 Using CSS, we cannot build 3D animation and transformation.	
+5 Using CSS, we cannot build 3D animation and transformation.	
+6 In CSS we have set of standard colors and it uses basic color schemes only.	
+7 In CSS we can only use single text blocks.	
+8  CSS does not support media queries.	
+9 CSS codes are not supported by all types of modern browsers.	
+10 In CSS, designers have to manually develop rounded gradients and corners.	
+11 There is no special effect like shadowing text, text animation, etc. in CSS. The animation was coded in jQuery and JavaScript.	
+12 There is no special effect like shadowing text, text animation, etc. in CSS. The animation was coded in jQuery and JavaScript.	
+13 CSS was developed in 1996.	
+14 CSS is memory intensive.	
+
+css
+1 On the other hand, CSS3 is capable of making the web page more attractive and takes less time to create. CSS3 is backward compatible with CSS.
+2 On the other hand, CSS3 is capable of making the web page more attractive and takes less time to create. CSS3 is backward compatible with CSS.
+3 Whereas CSS3 can be breakdown into modules.
+4 But in CSS3 we can perform all kinds of animation and transformations as it supports animation and 3D transformations.
+5 Whereas CSS3 is faster than CSS.
+6 Whereas CSS3 has a good collection of HSL RGBA, HSLA, and gradient colors.
+7 But in CSS3 we can use multi-column text blocks
+8 But CSS3 supports media queries
+9 Being the latest version, CSS3 codes are supported by all modern browsers.
+10 But CSS3 provides advanced codes for setting rounded gradients and corners
+11 CSS3 has many advance features like text shadows, visual effects, and a wide range of font styles and colors.
+12 Whereas CSS3 list has a special display property defined in it. Even list items also have counter reset properties.
+13 CSS3 is the latest version of CSS and was released in 2005.
+14 CSS3 memory consumption is low as compared to CSS.
+
+Q4 Name a few CSS style components
+
+*inline
+*selector
+*margin
+*css border
+*Inheritance
+*id selector
+*Specificity
+
+Q5  What do you understand by CSS opacity?
+
+The CSS opacity property is used to specify the transparency of an element. In simple word, you can say that it specifies the clarity of the image.In technical terms, Opacity is defined as degree in which light is allowed to travel through an object.
+
+
+Q6 How can the background color of an element be changed?
+
+We can set background color by selecting the element by its class name of id name and then apply the background-color property on it to set the background color.
+
+Syntax: background-color: color_name;
+
+Q7 How can image repetition of the backup be controlled?
+
+This task can be achieved by using the background-repeat property that will help us to control the repetition of the image.The background-repeat property in CSS is used to repeat the background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+Syntax: background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+	
+
+Q8 What is the rule set?
+
+ A rule set is a collection of one or many rules that are executed together as a single unit against a specific set of records (either from one source or a set of conjoined sources) and generate several levels of statistics.
+
+Q9 What are the media types allowed by CSS?
+
+continuous or paged.
+visual, audio, speech, or tactile.
+grid (for character grid devices), or bitmap.
+interactive (for devices that allow user interaction), or static (for those that do not).
+all (includes all media types
+
+Q10 What is the meaning of the CSS selector?
+
+A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+Q11 What are the advantages and disadvantages of using external style sheets?
+
+ The advantages of External Style Sheets are as follows :
+
+With the help of External Style Sheets, the styles of numerous documents can be organized from one single file.
+In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of the site.
+In complex contexts, Methods like selector and grouping can be implemented to apply styles.
+The disadvantages of External Style Sheets are as follows :
+
+An extra download is essential to import style information for each file.
+The execution of the file may be deferred till the external style sheet is loaded.
+While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.
+
+Q12 What are the external style sheets?
+
+An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+
+Q13 What is embedded style sheets?
+
+An embedded style sheet is declared within the <head> element of an XHTML document. It applies to the whole document, rather than just one element. Each style declaration (or CSS rule) gets applied to everything in the document that matches that rule.
+
+Q14 What are the ways to integrate CSS as a web page?
+
+CSS may be added to HTML in three different ways. To style a single HTML element on the page, use Inline CSS in a style attribute. By adding CSS to the head section of our HTML document, we can embed an internal stylesheet. We can also connect to an external stylesheet that separates our CSS from our HTML.
+
+Q15 How to maintain the CSS specifications?
+
+The Specification defines how CSS properties should be implemented by browser vendors along with detailed algorithms, code samples and tabular information.
+
+The Specification also include:
+
+The syntax and data types of the language
+Detailed explanation on CSS Selectors
+How you can assign values to properties
+The Cascade (the "C" in CSS)
+How inheritance works
+The Box Model e.t.c
+Explanation on some of these topic are short and easy to understand while others are explained in great detail.
+
+The Specification also specify how stylesheets can be included in your web document and how to target specific media e.g print or screen.
+
+The CSS Specification prior to CSS3 was a single Specification, CSS3 on the other hand is divided into Modules which are Independent Specifications that can be worked on by different author(s) at different paces, that's why we have Selector Level 3 Specification, CSS Color 4, CSS Backgrounds and so on. Some of these modules are revisions of CSS2.1, and some are newly created, but all fall under the banner of CSS3.
+
+The Specification should be your guide if you need to understand how a specific property or feature works behind the scene and how it works with other CSS properties. And if you are comfortable reading algorithms you won't get bored reading the CSS Specification.
+
+The Specifications can be accessed online along with the author(s) name and when its was last updated.
+
+Q16 How to center block elements using CSS1?
+
+To center block elements, we primarily rely on the margin property. Since block elements span the full width of their container, we adjust their margins to position them horizontally and vertically.
+
+Q17 Why should background and color be used as separate properties?
+
+While background and colour are often used together for elements, they serve different purposes. "Colour" sets the text colour, while "background" defines the background colour or image. Separating them allows for more flexibility in styling, as background properties can include images, gradients, and positioning.
+
+Q18 Which property controls the image scroll in the background?
+
+ The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+Q19 What is the use of the background-position property?
+
+The background-position CSS property sets the initial position for each background image. The position is relative to the position layer set by background-origin
