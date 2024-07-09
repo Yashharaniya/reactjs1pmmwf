@@ -1,0 +1,41 @@
+<!-- Question
+        Write the code for adding new elements dynamically?
+     Answer: -->
+        <!DOCTYPE html>
+<html>
+<head>
+   <title>Adding HTML elements dynamically</title>
+   <style>
+      h1 {
+         color: green;
+         display: flex;
+         justify-content: center;
+      }
+      #mybutton {
+         display: block;
+         margin: 0 auto;
+      }
+      #innerdiv {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+   </style>
+</head>
+<body>
+   <h1>
+      Welcome To Tutorials Point
+   </h1>
+   <div id="innerdiv"></div>
+   <button id="mybutton">
+      Click to Add HTML element
+   </button>
+   <script>
+      document.getElementById("mybutton").
+      addEventListener("click", function () {
+         document.getElementById("innerdiv").innerHTML += "<h3>Hello User</h3><p>Start your learning journey today.</p>";
+      });
+   </script>
+</body>
+</html>

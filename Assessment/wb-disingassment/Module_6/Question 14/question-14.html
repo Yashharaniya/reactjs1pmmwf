@@ -1,0 +1,119 @@
+<!-- Question
+        What are all the types of Pop up boxes available in JavaScript?
+    Answer:
+        JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+-->
+    <!-- Example: 1. Alert Box function 
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Pop-up Box type | Alert Box</title>
+	<style>
+		h1{
+			color:green;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<h1>GeeksforGeeks</h1>
+
+		<h3>Alert Box</h3>
+		<button onclick="geekAlert()">
+			Click here for alert box
+		</button>
+		
+		 Alert box function 
+		<script>
+			function geekAlert() {
+				alert("An Online Computer Science"
+							+ "Portal for Geeks");
+			}
+		</script>
+	</center>
+</body>
+</html>
+-->
+
+    <!-- Example: 2. Alert Box function:
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Pop-up Box type | Prompt Box
+	</title>
+	<style>
+		h1 {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<h1>GeeksforGeeks</h1>
+
+		<h3>Prompt Box</h3>
+
+		<input type="button" onclick="geekPrompt();"
+		value="Click here for Prompt box"/>
+
+		 Prompt box function 
+		<script>
+			function geekPrompt() {
+				let x = prompt("Enter your mail here : ");
+				document.write("Your ID : " + x);
+			}
+		</script>
+	</center>
+</body>
+</html>
+-->
+    <!-- Example: 3 Confirm Box function
+    
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Pop-up Box type | Confirm Box
+	</title>
+	<style>
+		h1 {
+			color: green;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+
+		<h1>GeeksforGeeks</h1>
+
+		<h3>Confirm Box</h3>
+
+		<button onclick="geekConfirm()">
+			Click here for Confirm box
+		</button>
+
+		<p id="geek"></p>
+
+
+		 Confirm box function 
+		<script>
+			function geekConfirm() {
+				var x;
+				if (confirm("Press a button!") == true) {
+					x = "OK pressed!";
+				} else {
+					x = "Cancel!";
+				}
+				document.getElementById("geek").innerHTML = x;
+			}
+		</script>
+	</center>
+</body>
+
+</html>
+-->
